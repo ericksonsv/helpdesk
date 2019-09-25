@@ -27,8 +27,8 @@ class CompaniesTableSeeder extends Seeder
                 "twitter" => "https://twitter.com/turinter_sa",
                 "instagram" => "https://www.instagram.com/turinter/",
                 "youtube" => "https://www.youtube.com/user/turinterLTN",
-                "created_at" => "2019-04-27 13:01:36",
-                "updated_at" => "2019-06-11 21:00:28",
+                "created_at" => "2019-04-27 17:01:36",
+                "updated_at" => "2019-06-12 01:00:28",
             ],
             [
                 "id" => 2,
@@ -44,8 +44,8 @@ class CompaniesTableSeeder extends Seeder
                 "twitter" => "http://www.twitter.com/grupoatom",
                 "instagram" => "http://www.instagram.com/grupoatom/?hl=en",
                 "youtube" => "",
-                "created_at" => "2019-04-27 13:02:12",
-                "updated_at" => "2019-06-11 21:00:13",
+                "created_at" => "2019-04-27 17:02:12",
+                "updated_at" => "2019-06-12 01:00:13",
             ]
         ]);
     }
