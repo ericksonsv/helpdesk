@@ -1,5 +1,6 @@
 <?php
 
+use App\Department;
 use Illuminate\Http\Request;
 
 /*
@@ -15,4 +16,8 @@ use Illuminate\Http\Request;
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::get('departments/{id}', function($id) {
+	return Department::select('id','name')->where('company_id', $id)->get();
 });
